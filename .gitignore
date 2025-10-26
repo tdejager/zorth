@@ -1,0 +1,12 @@
+# Zig build output
+zig-out/
+.zig-cache/
+
+# Pixi and optional env bits
+.pixi/
+.cache/
+
+# Editor cruft
+.DS_Store
+*.swp
+*.swo

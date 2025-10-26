@@ -1,0 +1,11 @@
+[workspace]
+authors = ["Tim de Jager <tdejager89@gmail.com>"]
+channels = ["https://prefix.dev/conda-forge"]
+name = "zorth"
+platforms = ["osx-arm64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+zig = ">=0.15.1,<0.16"
