@@ -1,3 +1,7 @@
+// Handles the interactive loop, piping IO into the interpreter.
+// Lesson 1 will flesh out the line-reading loop; later lessons may add features
+// like transcript logging, line editing, or loading scripts before dropping into
+// interactive mode.
 const std = @import("std");
 const interpreter_mod = @import("interpreter.zig");
 

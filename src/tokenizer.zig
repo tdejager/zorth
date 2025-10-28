@@ -1,3 +1,6 @@
+// Splits input lines into whitespace-delimited tokens for the interpreter.
+// Lesson 1 implements basic whitespace splitting; later lessons can enhance this
+// with comment handling, numeric hints, or compile-mode specific token flows.
 const std = @import("std");
 
 pub const Tokenizer = struct {

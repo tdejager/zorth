@@ -1,3 +1,6 @@
+// Spec cases for Lesson 3.5; covers core stack manipulation words and `.S`.
+// Add new stack-inspection or shuffling words here to keep the lesson cohesive
+// before promoting them to later chapters.
 const harness = @import("lesson_harness");
 
 // Lesson 3.5 — Core Stack Words (DUP, DROP, SWAP, OVER, .S)

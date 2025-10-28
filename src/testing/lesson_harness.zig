@@ -1,3 +1,7 @@
+// Test harness to exercise lesson specs against the interpreter implementation.
+// Today it drives simple scripts and stack checks; later you can extend cases with
+// richer matchers (e.g. dictionary snapshots, compile errors) to keep lessons
+// executable documentation as the language grows.
 const std = @import("std");
 const zorth = @import("zorth");
 

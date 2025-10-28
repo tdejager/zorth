@@ -1,3 +1,8 @@
+// Dictionary of words and behaviors used by the interpreter.
+// Lesson 3 introduces lookup and builtin arithmetic registrations; Lesson 3.5
+// adds core stack words, and Lesson 4 will start storing user-defined word bodies.
+// Future lessons can extend the `Behavior` union with compiled code pointers or
+// metadata without altering the consumer API.
 const std = @import("std");
 const vm_mod = @import("vm.zig");
 

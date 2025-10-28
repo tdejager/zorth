@@ -1,3 +1,6 @@
+// Spec cases for Lesson 2; exercises integer parsing, printing, and errors.
+// Future numeric features (e.g. signed/hex parsing) should add cases here so
+// the lesson narrative remains in sync with behavior.
 const harness = @import("lesson_harness");
 
 // Lesson 2 — Integer Handling + Print

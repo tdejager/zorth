@@ -1,3 +1,8 @@
+// Coordinates tokenization, dictionary lookup, and VM execution for one REPL session.
+// Lesson 1 will hook up token streaming and a VM skeleton, Lessons 2-3 teach it
+// to parse integers and resolve dictionary entries, and Lesson 4 extends it with
+// compile mode for user-defined words. Keep new behavior centralized here so the
+// REPL stays a thin IO wrapper.
 const std = @import("std");
 const vm_mod = @import("vm.zig");
 const tokenizer_mod = @import("tokenizer.zig");
