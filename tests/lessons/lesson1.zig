@@ -1,3 +1,6 @@
+// Spec cases for Lesson 1; mirrors the tokenizer/REPL requirements.
+// Extend this file when you add features like comment skipping or smarter prompts
+// so the lesson docs stay executable.
 const harness = @import("lesson_harness");
 
 // Lesson 1 — REPL + Tokenizer + VM Skeleton

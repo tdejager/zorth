@@ -1,3 +1,7 @@
+// Build orchestration for the Zorth lessons: wires up the library module,
+// CLI executable, default tests, and the lesson harness step (`zig build lessons`).
+// Adding a new lesson usually means creating a test file and registering it in
+// `tests/lesson_specs.zig`; the build script already passes the `-Dlesson` option through.
 const std = @import("std");
 
 // Although this function looks imperative, it does not perform the build

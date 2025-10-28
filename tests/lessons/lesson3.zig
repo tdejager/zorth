@@ -1,3 +1,6 @@
+// Spec cases for Lesson 3; focuses on dictionary lookups and arithmetic words.
+// When you introduce new builtin categories (logic, memory), mirror them here
+// before advancing to later lessons.
 const harness = @import("lesson_harness");
 
 // Lesson 3 — Dictionary + Arithmetic (`+ - * /`)

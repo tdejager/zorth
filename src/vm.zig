@@ -1,3 +1,7 @@
+// Minimal data stack implementation backing the interpreter.
+// Lesson 1 will rely on push/pop, Lesson 2 adds underflow-aware integer pushes,
+// and later lessons can extend this module with return stacks, memory spaces,
+// or tracing helpers without disturbing higher-level code.
 const std = @import("std");
 
 pub const VmError = error{

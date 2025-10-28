@@ -1,3 +1,6 @@
+// Spec cases for Lesson 4; documents user-defined word compilation.
+// As future lessons add control flow or memory words, complement them with
+// scenarios here to demonstrate how user code composes the new primitives.
 const harness = @import("lesson_harness");
 
 // Lesson 4 — User-Defined Words (`: name ... ;`)

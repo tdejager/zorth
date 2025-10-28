@@ -1,3 +1,6 @@
+// Entry point used by `zig build lessons` to dispatch the chosen lesson suite.
+// New lessons only need to add an import branch here plus a test file under
+// `tests/lessons/`, keeping the workflow consistent as curriculum expands.
 const std = @import("std");
 const options = @import("build_options");
 const harness = @import("lesson_harness");
